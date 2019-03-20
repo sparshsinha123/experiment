@@ -9,4 +9,5 @@ int main()
     cout<<add(x,y)<<endl;
     cout<<sub(x,y)<<endl;
     cout<<factorial(5)<<endl;
+    //it is good not to use the recursive version
 }
