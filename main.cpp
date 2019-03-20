@@ -6,7 +6,7 @@ int main()
 {
     int x = 5;
     int z=9;
-    cout<<add(x,y)<<endl;
-    cout<<sub(x,y)<<endl;
+    cout<<add(x,z)<<endl;
+    cout<<sub(x,z)<<endl;
     cout<<factorial(5)<<endl;
 }
