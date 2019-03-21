@@ -5,8 +5,11 @@
 int main()
 {
     int x = 5;
-    int y = 9;
-    cout<<add(x,z)<<endl;
-    cout<<sub(x,z)<<endl;
+
+    int y=9;
+    cout<<add(x,y)<<endl;
+    cout<<sub(x,y)<<endl;
+
     cout<<factorial(5)<<endl;
+    //it is good not to use the recursive version
 }
