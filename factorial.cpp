@@ -10,3 +10,13 @@ int factorial(int n)
     }
     return fact;
 }
+
+int exp_p(int n , int p){
+    int e = 0;
+    int temp = n;
+    while(temp){
+        e += temp / p;
+        temp = temp / p;
+    }
+    return p;
+}
