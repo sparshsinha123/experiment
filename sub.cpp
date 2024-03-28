@@ -2,7 +2,9 @@
 
 int sub(int a, int b)
 {
-    int diff;
-    diff = a>b?a-b:b-a;
-    return diff;
+    return diff(a,b);
+}
+
+int diff(int a , int b){
+    return a-b;
 }
